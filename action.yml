@@ -6,6 +6,11 @@ inputs:
     description: Input CSV file to convert into PSV
     required: true
     default: "input.csv"
+  num:
+    description: 'Enter a number'
+    required: true
+    default: "1"
+    
 outputs:
   num_squared:
     description: 'Square of the input'
