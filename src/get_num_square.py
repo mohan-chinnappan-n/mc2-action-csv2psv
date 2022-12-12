@@ -1,5 +1,6 @@
 import os
 
+
 # get the input and convert it to int
 num = os.environ.get("INPUT_NUM")
 if num:
