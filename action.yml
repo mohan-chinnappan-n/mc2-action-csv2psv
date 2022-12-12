@@ -1,0 +1,13 @@
+name: 'CSV to PSV'
+author: Mohan Chinnappan
+description: 'This action converts a given CSV file PSV (pipe separated value)'
+inputs:
+  input-csv-file:
+    description: Input CSV file to convert into PSV
+    required: true
+runs:
+  using: 'python3'
+  main: 'main.py'
+branding:
+  icon: 'terminal'  
+  color: 'purple'
